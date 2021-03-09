@@ -1,0 +1,19 @@
+<% if (theme.valine && post.comments) { %>
+<div id="vcomments"></div>
+<script>
+  window.onload = function(){
+      var valine = new Valine();
+      valine.init({
+        el: '#vcomments',
+        appId: "<%= theme.v_appId %>",
+        appKey: "<%= theme.v_appKey %>",
+        master: 'eeb5bf9161f41a9bbee1b6af0daba9b0',
+        tagMeta: ["博主","小伙伴","访客"],
+        path: window.location.pathname,
+        placeholder: "你是我一生只会遇见一次的惊喜 ...",
+        metaPlaceholder: {"nick":"昵称","mail":"邮箱(用于获取头像和收到回复,非必填)","link":"网址(https://)"},
+        avatar: 'identicon'
+      })
+  }
+</script>
+<% } %>
