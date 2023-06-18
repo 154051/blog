@@ -1,0 +1,11 @@
+git --version
+node -v
+npm install hexo-cli -g
+npm install hexo-deployer-git --save
+git config --global user.name "a154051"
+git config --global user.email "2279162137@qq.com"
+ssh-keygen -t rsa -C "2279162137@qq.com"
+ssh -T git@gitee.com
+ssh -T git@github.com
+git remote add coding git@gitee.com:a154051/blog.git
+git remote add github git@github.com:154051/blog.git

@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>154051</title>
+  
+  
+  <link href="https://a154051.gitee.io/atom.xml" rel="self"/>
+  
+  <link href="https://a154051.gitee.io/"/>
+  <updated>2021-09-25T09:42:17.488Z</updated>
+  <id>https://a154051.gitee.io/</id>
+  
+  <author>
+    <name>154051</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>【题解】P4331 [BalticOI 2004]Sequence</title>
+    <link href="https://a154051.gitee.io/2021/09/25/solution-P4331-sequence/"/>
+    <id>https://a154051.gitee.io/2021/09/25/solution-P4331-sequence/</id>
+    <published>2021-09-25T08:35:02.000Z</published>
+    <updated>2021-09-25T09:42:17.488Z</updated>
+    
+    
+    <summary type="html">贪心加数据结构</summary>
+    
+    
+    
+    <category term="题解" scheme="https://a154051.gitee.io/categories/%E9%A2%98%E8%A7%A3/"/>
+    
+    
+    <category term="贪心" scheme="https://a154051.gitee.io/tags/%E8%B4%AA%E5%BF%83/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>【题解】P3291 [SCOI2016]妖怪</title>
+    <link href="https://a154051.gitee.io/2021/09/01/solution-P3291-yao-guai/"/>
+    <id>https://a154051.gitee.io/2021/09/01/solution-P3291-yao-guai/</id>
+    <published>2021-09-01T12:11:16.000Z</published>
+    <updated>2021-09-01T12:40:49.000Z</updated>
+    
+    
+    <summary type="html">玄学又好用的模拟退火</summary>
+    
+    
+    
+    <category term="题解" scheme="https://a154051.gitee.io/categories/%E9%A2%98%E8%A7%A3/"/>
+    
+    
+    <category term="模拟退火" scheme="https://a154051.gitee.io/tags/%E6%A8%A1%E6%8B%9F%E9%80%80%E7%81%AB/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>【题解】P3761 [TJOI2017]城市</title>
+    <link href="https://a154051.gitee.io/2021/08/08/solution-P3761-city/"/>
+    <id>https://a154051.gitee.io/2021/08/08/solution-P3761-city/</id>
+    <published>2021-08-08T12:31:36.000Z</published>
+    <updated>2021-09-01T12:40:49.000Z</updated>
+    
+    
+    <summary type="html">证明了O(n)做法</summary>
+    
+    
+    
+    <category term="题解" scheme="https://a154051.gitee.io/categories/%E9%A2%98%E8%A7%A3/"/>
+    
+    
+    <category term="树" scheme="https://a154051.gitee.io/tags/%E6%A0%91/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>【题解】P4248 [AHOI2013]差异</title>
+    <link href="https://a154051.gitee.io/2021/07/17/solution-P4248-cha-yi/"/>
+    <id>https://a154051.gitee.io/2021/07/17/solution-P4248-cha-yi/</id>
+    <published>2021-07-17T11:49:52.000Z</published>
+    <updated>2021-09-25T08:40:26.108Z</updated>
+    
+    
+    <summary type="html">后缀自动机求最长公共后缀</summary>
+    
+    
+    
+    <category term="题解" scheme="https://a154051.gitee.io/categories/%E9%A2%98%E8%A7%A3/"/>
+    
+    
+    <category term="字符串" scheme="https://a154051.gitee.io/tags/%E5%AD%97%E7%AC%A6%E4%B8%B2/"/>
+    
+    <category term="后缀自动机,SAM" scheme="https://a154051.gitee.io/tags/%E5%90%8E%E7%BC%80%E8%87%AA%E5%8A%A8%E6%9C%BA-SAM/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>焦作一中集训记</title>
+    <link href="https://a154051.gitee.io/2021/05/15/ji-xun-ji/"/>
+    <id>https://a154051.gitee.io/2021/05/15/ji-xun-ji/</id>
+    <published>2021-05-15T08:49:31.000Z</published>
+    <updated>2021-09-01T12:40:49.000Z</updated>
+    
+    
+    <summary type="html">焦作一中集训记</summary>
+    
+    
+    
+    <category term="游记" scheme="https://a154051.gitee.io/categories/%E6%B8%B8%E8%AE%B0/"/>
+    
+    
+    <category term="集训" scheme="https://a154051.gitee.io/tags/%E9%9B%86%E8%AE%AD/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>5.2模拟赛总结</title>
+    <link href="https://a154051.gitee.io/2021/05/02/5-2-mo-ni-sai-zong-jie/"/>
+    <id>https://a154051.gitee.io/2021/05/02/5-2-mo-ni-sai-zong-jie/</id>
+    <published>2021-05-02T10:33:00.000Z</published>
+    <updated>2021-09-01T12:40:49.000Z</updated>
+    
+    
+    <summary type="html">5.2模拟赛总结</summary>
+    
+    
+    
+    <category term="总结" scheme="https://a154051.gitee.io/categories/%E6%80%BB%E7%BB%93/"/>
+    
+    
+    <category term="模拟赛" scheme="https://a154051.gitee.io/tags/%E6%A8%A1%E6%8B%9F%E8%B5%9B/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>4.29模拟赛总结</title>
+    <link href="https://a154051.gitee.io/2021/04/29/4-29-mo-ni-sai-zong-jie/"/>
+    <id>https://a154051.gitee.io/2021/04/29/4-29-mo-ni-sai-zong-jie/</id>
+    <published>2021-04-29T12:25:48.000Z</published>
+    <updated>2021-09-01T12:40:49.000Z</updated>
+    
+    
+    <summary type="html">4.29模拟赛总结</summary>
+    
+    
+    
+    <category term="总结" scheme="https://a154051.gitee.io/categories/%E6%80%BB%E7%BB%93/"/>
+    
+    
+    <category term="模拟赛" scheme="https://a154051.gitee.io/tags/%E6%A8%A1%E6%8B%9F%E8%B5%9B/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>4.28模拟赛总结</title>
+    <link href="https://a154051.gitee.io/2021/04/28/4-28-mo-ni-sai-zong-jie/"/>
+    <id>https://a154051.gitee.io/2021/04/28/4-28-mo-ni-sai-zong-jie/</id>
+    <published>2021-04-28T08:32:48.000Z</published>
+    <updated>2021-09-01T12:40:49.000Z</updated>
+    
+    
+    <summary type="html">4.28模拟赛总结</summary>
+    
+    
+    
+    <category term="总结" scheme="https://a154051.gitee.io/categories/%E6%80%BB%E7%BB%93/"/>
+    
+    
+    <category term="模拟赛" scheme="https://a154051.gitee.io/tags/%E6%A8%A1%E6%8B%9F%E8%B5%9B/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>4.26模拟赛总结</title>
+    <link href="https://a154051.gitee.io/2021/04/26/4-26-mo-ni-sai-zong-jie/"/>
+    <id>https://a154051.gitee.io/2021/04/26/4-26-mo-ni-sai-zong-jie/</id>
+    <published>2021-04-26T05:54:44.000Z</published>
+    <updated>2021-09-01T12:40:49.000Z</updated>
+    
+    
+    <summary type="html">4.26模拟赛总结</summary>
+    
+    
+    
+    <category term="总结" scheme="https://a154051.gitee.io/categories/%E6%80%BB%E7%BB%93/"/>
+    
+    
+    <category term="模拟赛" scheme="https://a154051.gitee.io/tags/%E6%A8%A1%E6%8B%9F%E8%B5%9B/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>4.25模拟赛总结</title>
+    <link href="https://a154051.gitee.io/2021/04/25/4-25-mo-ni-sai-zong-jie/"/>
+    <id>https://a154051.gitee.io/2021/04/25/4-25-mo-ni-sai-zong-jie/</id>
+    <published>2021-04-25T13:20:14.000Z</published>
+    <updated>2021-09-01T12:40:49.000Z</updated>
+    
+    
+    <summary type="html">4.25模拟赛总结</summary>
+    
+    
+    
+    <category term="总结" scheme="https://a154051.gitee.io/categories/%E6%80%BB%E7%BB%93/"/>
+    
+    
+    <category term="模拟赛" scheme="https://a154051.gitee.io/tags/%E6%A8%A1%E6%8B%9F%E8%B5%9B/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>【题解】P2472 [SCOI2007]蜥蜴</title>
+    <link href="https://a154051.gitee.io/2021/03/05/solution-P2472-xi-yi/"/>
+    <id>https://a154051.gitee.io/2021/03/05/solution-P2472-xi-yi/</id>
+    <published>2021-03-05T08:36:55.000Z</published>
+    <updated>2021-09-01T12:40:49.000Z</updated>
+    
+    
+    <summary type="html">网络瘤，毒瘤的瘤。</summary>
+    
+    
+    
+    <category term="题解" scheme="https://a154051.gitee.io/categories/%E9%A2%98%E8%A7%A3/"/>
+    
+    
+    <category term="洛谷" scheme="https://a154051.gitee.io/tags/%E6%B4%9B%E8%B0%B7/"/>
+    
+    <category term="网络流" scheme="https://a154051.gitee.io/tags/%E7%BD%91%E7%BB%9C%E6%B5%81/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>【题解】P2467 [SDOI2010]地精部落</title>
+    <link href="https://a154051.gitee.io/2021/03/03/solution-P2467-bu-luo/"/>
+    <id>https://a154051.gitee.io/2021/03/03/solution-P2467-bu-luo/</id>
+    <published>2021-03-03T13:40:32.000Z</published>
+    <updated>2021-09-01T12:40:49.000Z</updated>
+    
+    
+    <summary type="html">前缀和优化DP</summary>
+    
+    
+    
+    <category term="题解" scheme="https://a154051.gitee.io/categories/%E9%A2%98%E8%A7%A3/"/>
+    
+    
+    <category term="洛谷" scheme="https://a154051.gitee.io/tags/%E6%B4%9B%E8%B0%B7/"/>
+    
+    <category term="DP" scheme="https://a154051.gitee.io/tags/DP/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>【题解】P6394樱花，还有你</title>
+    <link href="https://a154051.gitee.io/2021/02/27/solution-P6394-ying-hua/"/>
+    <id>https://a154051.gitee.io/2021/02/27/solution-P6394-ying-hua/</id>
+    <published>2021-02-27T03:14:00.000Z</published>
+    <updated>2021-09-01T12:40:49.000Z</updated>
+    
+    
+    <summary type="html">基础DP优化好题</summary>
+    
+    
+    
+    <category term="题解" scheme="https://a154051.gitee.io/categories/%E9%A2%98%E8%A7%A3/"/>
+    
+    
+    <category term="洛谷" scheme="https://a154051.gitee.io/tags/%E6%B4%9B%E8%B0%B7/"/>
+    
+    <category term="DP" scheme="https://a154051.gitee.io/tags/DP/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>【学习笔记】模拟退火算法</title>
+    <link href="https://a154051.gitee.io/2021/02/08/mo-ni-tui-huo-bi-ji/"/>
+    <id>https://a154051.gitee.io/2021/02/08/mo-ni-tui-huo-bi-ji/</id>
+    <published>2021-02-08T11:40:00.000Z</published>
+    <updated>2021-09-01T12:40:49.000Z</updated>
+    
+    
+    <summary type="html">模拟退火笔记</summary>
+    
+    
+    
+    <category term="笔记" scheme="https://a154051.gitee.io/categories/%E7%AC%94%E8%AE%B0/"/>
+    
+    
+    <category term="模拟退火" scheme="https://a154051.gitee.io/tags/%E6%A8%A1%E6%8B%9F%E9%80%80%E7%81%AB/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>test</title>
+    <link href="https://a154051.gitee.io/2020/12/20/test/"/>
+    <id>https://a154051.gitee.io/2020/12/20/test/</id>
+    <published>2020-12-20T08:40:00.000Z</published>
+    <updated>2021-09-01T12:40:49.000Z</updated>
+    
+    
+    <summary type="html">总之就是测试各种东西</summary>
+    
+    
+    
+    <category term="测试" scheme="https://a154051.gitee.io/categories/%E6%B5%8B%E8%AF%95/"/>
+    
+    
+    <category term="code" scheme="https://a154051.gitee.io/tags/code/"/>
+    
+    <category term="latex" scheme="https://a154051.gitee.io/tags/latex/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="https://a154051.gitee.io/2020/12/06/hello-world/"/>
+    <id>https://a154051.gitee.io/2020/12/06/hello-world/</id>
+    <published>2020-12-06T14:12:00.000Z</published>
+    <updated>2021-09-01T12:40:49.000Z</updated>
+    
+    
+    <summary type="html">Hello World</summary>
+    
+    
+    
+    
+  </entry>
+  
+</feed>

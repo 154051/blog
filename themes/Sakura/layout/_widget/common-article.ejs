@@ -1,0 +1,163 @@
+<link rel="stylesheet" type="text/css" href="/css/sharejs.css">
+<link rel="stylesheet" href="https://cdn.bootcss.com/tocbot/4.8.0/tocbot.css">
+
+<div class="pattern-center-blank"></div>
+<% if (post.photos && post.photos.length){ %>
+  <div class="pattern-center-sakura single-center">
+    <!-- 有配图默认渲染第一张 -->
+    <div class="pattern-attachment-img lazyload" style="background-image: url(<%= post.photos[0] %>);" src="<%- theme.lazyloadImg%>" data-src="<%= post.photos[0] %>">
+    </div>
+    <header class="pattern-header single-header" style="text-shadow: 0 0 7px #000,0 0 7px #000">
+      <h1 class="entry-title">
+      <%- post.title %></h1>
+      <p class="entry-census">
+        <span>
+          <a href="/">
+            <img src="<%- post.avatar%>">
+          </a>
+        </span>
+        <span>
+          <a href="/"><%- post.author %></a>
+        </span>
+        <span class="bull">
+        <i class="fa fa-calendar" aria-hidden="true"></i></span>
+        <%= date(post.date, 'YYYY-M-D') %>    
+        <span class="bull"></span>
+        <% if(post.categories && post.categories.length){ %>
+          <span><i class="fa fa-archive"></i> 分类于  
+            <% post.categories.each((category)=>{ %><span class="article-category"><a href="<%- url_for(category.path) %>" > <%= category.name %></a></span>
+          <% }) %>
+        </span>
+        <% } %>
+        <!-- <span class="bull">
+        <i class="fa fa-eye" aria-hidden="true"></i></span> -->
+      <!-- <span id="busuanzi_value_page_pv"></span>次阅读 -->
+      <% if (post.top){ %>
+        <i class="fa fa-thumb-tack"></i>
+        <font color=ff9999>置顶</font>
+      <% } %>
+    </p>
+      <!-- <% if (post.tags && post.tags.length){ %>
+        <div>
+          <ul class="spfk-ul">
+            <i class="fa fa-tag" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;&nbsp;
+            <% post.tags.each((tag)=>{ %>
+              <li class="spfk-li"><a href="/tags/<%= tag.name %>/" class="butterfly-tags"><%= tag.name %></a></li>
+            <% }) %>
+          </ul>
+        </div>
+        <script>
+          function colorInit(c,num){for(var i=1;i<=num;++i)c.push(i+'');}
+          function paintTags(){
+              var colorNumber=8,tagColors=[],tags=document.getElementsByClassName('butterfly-tags');
+              for(var i = 0 ; i < tags.length ; ++i){
+                  if(!tagColors.length)colorInit(tagColors,colorNumber);
+                  var j=Math.floor(Math.random()*tagColors.length);
+                  tags[i].classList.add("spfk-color"+tagColors[j]);
+                  tagColors.splice(j,1);
+              }
+          }
+          paintTags()
+      </script>
+      <% } %> -->
+    </header>
+  </div>
+<% } %>
+<div id="content" class="site-content">
+  <div id="primary" class="content-area">
+    <main id="main" class="site-main" role="main">
+      <article id="post-1" class="post-1 post type-post status-publish format-standard has-post-thumbnail hentry category-uncategorized">
+        <div class="toc"></div>
+        <!--<div class="toc-entry-content"><!-- 套嵌目录使用（主要为了支援评论）-->
+        <% if (!post.photos[0]){ %>
+          <header class="entry-header">
+            <h1 class="entry-title"><%- post.title %></h1>
+            <p class="entry-census"><%- post.author %>&nbsp;·&nbsp;<%= date(post.date, 'YYYY-M-D') %>&nbsp;·&nbsp;<span id="busuanzi_value_page_pv"></span>次阅读</p></p>
+
+            <hr>
+          </header>
+        <% } %>
+        <div class="entry-content">
+          <%- post.content %>
+        </div>
+        <!-- .entry-content -->
+        <div style="text-align:center; width: 100%" class="social-share share-mobile" data-disabled="diandian, tencent"></div>
+        <footer class="post-footer">
+          <div class="post-lincenses"><a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh" target="_blank" rel="nofollow"><i class="fa fa-creative-commons" aria-hidden="true"></i> 知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议</a></div>
+          <div class="post-tags">
+          </div>
+          <div class="post-share">
+            <div class="social-share sharehidden share-component"></div>
+            <i class="iconfont show-share icon-forward"></i>
+          </div>
+        </footer><!-- .entry-footer -->
+      </article>
+      <!-- #post-## -->
+      <div class="toc" style="background: none;"></div>
+      <section class="post-squares nextprev">
+        <% if (post.prev){ %>
+          <% if (post.next) { %>
+            <div class="post-nepre half previous">
+          <% } else { %>
+            <div class="post-nepre full previous">
+          <% } %>
+            <a href="<%- url_for(post.prev.path) %>" rel="prev">
+              <div class="background">
+                <img class="lazyload" src="<%- theme.lazyloadImg%>" data-src="<%- post.prev.photos[0]%>" style="width: 100%; height: 100%; object-fit: cover; pointer-events: none;" onerror="imgError(this,3)" src="<%- post.prev.photos[0]%>">
+              </div>
+              <span class="label">
+              Previous Post</span>
+              <div class="info">
+                <h3>
+                <%= post.prev.title%></h3>
+                <hr>
+              </div>
+            </a>
+          </div>
+        <% } %>
+        <% if (post.next){ %>
+          <% if (post.prev) { %>
+            <div class="post-nepre half next">
+          <% } else { %>
+            <div class="post-nepre full next">
+          <% } %>
+            <a href="<%- url_for(post.next.path) %>" rel="next">
+              <div class="background">
+                <img class="lazyload" src="<%- theme.lazyloadImg%>" data-src="<%- post.next.photos[0]%>" style="width: 100%; height: 100%; object-fit: cover; pointer-events: none;" onerror="imgError(this,3)" src="<%- post.next.photos[0]%>">
+              </div>
+              <span class="label">
+              Next Post</span>
+              <div class="info">
+                <h3>
+                <%= post.next.title%></h3>
+                <hr>
+              </div>
+            </a>
+          </div>
+        <% } %>
+      </section>
+      <%- partial('_partial/comment') %>
+      <section class="author-profile">
+        <div class="info" itemprop="author" itemscope="" itemtype="https://schema.org/Person">
+          <a href="/" class="profile gravatar"><img src="<%- post.avatar%>" itemprop="image" alt="<%- post.author %>" height="70" width="70"></a>
+          <div class="meta">
+            <span class="title">Author</span>
+            <h3 itemprop="name">
+            <a href="/" itemprop="url" rel="author"><%- post.author %></a>
+            </h3>
+          </div>
+        </div>
+        <p><i class="iconfont icon-write"></i><%- theme.description%></p>
+      </section>
+    </main><!-- #main -->
+  </div><!-- #primary -->
+</div>
+
+<% if (post.mathjax) { %>
+  <!-- <script type="text/javascript" src="https://cdn.bootcss.com/mathjax/2.7.6/latest.js?config=TeX-MML-AM_CHTML"></script> -->
+  <!-- <script type="text/javascript" src="https://mathjax.rstudio.com/2.7.2/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script> -->
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/mathjax@2.7.5/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+  <script type="text/x-mathjax-config">
+    MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+  </script>
+<% } %>
