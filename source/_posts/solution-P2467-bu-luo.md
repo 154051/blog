@@ -5,7 +5,6 @@ title: 【题解】P2467 [SDOI2010]地精部落
 mathjax: true
 date: 2021-03-03 21:40:32
 tags: 
- - 洛谷
  - DP
 categories: 题解
 description: 前缀和优化DP

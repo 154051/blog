@@ -2,7 +2,7 @@
 prefixName: a154051
 siteName: 
 # favicon and site master avatar
-favicon: /images/chess-queen.svg
+favicon: /images/chess-king.svg
 avatar: /img/头像new.jpg
 url: https://a154051.gitee.io/
 description: 菜就多练练
@@ -20,7 +20,7 @@ menus:
     题解: {path: /categories/题解/, fa: fa-code },
     笔记: {path: /categories/笔记/, fa: fa-book },
   } }
-  # tags: { path: /tags/, fa: fa-list-ul faa-vertical }
+  tags: { path: /tags/, fa: fa-list-ul faa-vertical }
   留言板: { path: /comment/, fa: fa-pencil-square-o faa-tada }
   友人帐: { path: /links/, fa: fa-link faa-shake }
   # 番剧: {path: /bangumi/, fa: fa-film faa-vertical }

@@ -21,6 +21,11 @@
         <font color=ff9999>置顶</font>
         <span class="post-meta-divider"> | </span>
       <% } %>
+      <span><i class="fa fa-tags"></i>
+        <% post.tags.each((tag)=>{ %>
+            <a href="<%- url_for(tag.path) %>"><%= tag.name %><em>·</em></a>
+          <% }) %>
+        </span> 
         <span>
           <i class="iconfont icon-file"></i>
           <% post.categories.each((category)=>{ %>

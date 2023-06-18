@@ -5,7 +5,6 @@ title: 【题解】P2472 [SCOI2007]蜥蜴
 mathjax: true
 date: 2021-03-05 16:36:55
 tags: 
- - 洛谷
  - 网络流
 categories: 题解
 description: 网络瘤，毒瘤的瘤。

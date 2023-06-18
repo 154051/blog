@@ -1429,7 +1429,7 @@ a:hover,a:active {
     margin:15px 0 0 10px;
     font-size:16px;
     position:relative;
-    left:-30%;
+    left:-35%;
     pointer-events:auto !important
 }
 #show-nav.mobile-fit {

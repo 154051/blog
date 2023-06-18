@@ -4,7 +4,7 @@ avatar: 'https://cdn.jsdelivr.net/gh/154051/cdn@master/img/头像new.jpg'
 title: 【题解】P4248 [AHOI2013]差异
 tags:
   - 字符串
-  - 后缀自动机,SAM
+  - 后缀自动机-SAM
 mathjax: true
 date: 2021-07-17 19:49:52
 categories: 题解
