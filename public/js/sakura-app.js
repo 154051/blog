@@ -1047,14 +1047,14 @@ mashiro_global.ini.normalize()
 var home = location.href,
   s = $('#bgvideo')[0],
   Siren = {
-    TO: function() {
-      if (!mashiro_option.t_enable) {
-        var t=$('.post-item').append('<div id="twikoo" class="twikoo"></div>')
-        twikoo.init({
-          envId: dummerfu_option.t_envId,
-        })
-      }
-    },
+    // TO: function() {
+    //   if (!mashiro_option.t_enable) {
+    //     var t=$('.post-item').append('<div id="twikoo" class="twikoo"></div>')
+    //     twikoo.init({
+    //       envId: dummerfu_option.t_envId,
+    //     })
+    //   }
+    // },
     BSZ: function() {
       $.getScript('//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js')
     },

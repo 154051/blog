@@ -1,6 +1,6 @@
 ---
 title: 【学习笔记】模拟退火算法 
-author: 154051
+author: a154051
 avatar: https://cdn.jsdelivr.net/gh/154051/cdn@master/img/头像new.jpg
 categories: 笔记
 date: 2021-02-08 19:40:00

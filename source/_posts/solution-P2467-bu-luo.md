@@ -1,5 +1,5 @@
 ---
-author: 154051
+author: a154051
 avatar: https://cdn.jsdelivr.net/gh/154051/cdn@master/img/头像new.jpg
 title: 【题解】P2467 [SDOI2010]地精部落
 mathjax: true

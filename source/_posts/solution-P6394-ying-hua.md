@@ -1,6 +1,6 @@
 ---
 title: 【题解】P6394樱花，还有你
-author: 154051
+author: a154051
 avatar: https://cdn.jsdelivr.net/gh/154051/cdn@master/img/头像new.jpg
 categories: 题解
 date: 2021-02-27 11:14:00

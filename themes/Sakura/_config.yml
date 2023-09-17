@@ -103,7 +103,7 @@ v_appKey: AK8kkYPveMhsDMtYFXRUSHgo
 
 twikoo:
   enable: true
-  envId: https://a154051-twikoo.zeabur.app/
+  envId: https://tranquil-centaur-0714bb.netlify.app/.netlify/functions/twikoo
 
 # 简易信息聚合,站点共享
 rss: /atom.xml
