@@ -9,7 +9,7 @@ tags:
  - 模拟退火
 keywords: 模拟退火笔记
 description: 模拟退火笔记
-photos: https://cdn.jsdelivr.net/gh/154051/cdn@master/img/鬼灭2new.jpg
+photos: https://cdn.jsdelivr.net/gh/154051/cdn@master/img/鬼灭1new.jpg
 ---
 
 # 简介

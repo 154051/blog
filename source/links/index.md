@@ -29,7 +29,7 @@ links:
     - url: https://www.cnblogs.com/Dr-Albert-Wensley/
       img: https://cdn.jsdelivr.net/gh/154051/cdn@master/img/links/6.jpg
       name: _桀氓_
-      desc: 知我者，谓我心忧；不知我者，谓我何求。
+      desc: 
     - url: https://www.cnblogs.com/ezuyz/
       img: https://cdn.jsdelivr.net/gh/154051/cdn@master/img/links/ezuyz.png
       name: ☄️ezuyz☄️
