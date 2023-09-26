@@ -38,7 +38,7 @@ photos: https://pic.imgdb.cn/item/651263edc458853aefbb11d1.jpg
 
 ## 代码
 
-```
+```cpp
 #include <bits/stdc++.h>
 using namespace std;
 const int N=3e5+7;

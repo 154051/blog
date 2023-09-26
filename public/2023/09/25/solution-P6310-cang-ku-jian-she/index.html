@@ -420,7 +420,7 @@
 <p>如果从 $i$ 到根的路径上只有 $fa_i$，若 $\exists j \neq i,fa_j = fa_i$ 则答案不变，若这样的 $j$ 不存在，则无法到达 $i$，答案为 $-1$。</p>
 <p>如果 $fa_i$ 是第一问选择的节点且从 $i$ 到根的路径上还有其他的 $fa$，则只需要在 $fa_i$ 子树内选择深度最浅的几个 $fa$ 节点就能覆盖所有点，像第一问一样在 $fa_i$ 的子树内遍历，遇到 $fa$ 节点就将计数器加一，并直接返回，不用遍历该子树，最后将第一问的答案减一再加上计数器就是最终答案。</p>
 <p>向上找 $fa$ 用倍增实现，其他值都可以一次 dfs 求出来，总时间复杂度为 $O(n \log n)$。</p>
-<h2 id="代码"><a href="#代码" class="headerlink" title="代码"></a>代码</h2><pre><code>#include &lt;bits/stdc++.h&gt;
+<h2 id="代码"><a href="#代码" class="headerlink" title="代码"></a>代码</h2><pre><code class="lang-cpp">#include &lt;bits/stdc++.h&gt;
 using namespace std;
 const int N=3e5+7;
 struct edge &#123;
@@ -488,7 +488,8 @@ int main()
     &#125;
     return 0;
 &#125;
-</code></pre><link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>
+</code></pre>
+<link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>
         </div>
         <!-- .entry-content -->
         <div style="text-align:center; width: 100%" class="social-share share-mobile" data-disabled="diandian, tencent"></div>
