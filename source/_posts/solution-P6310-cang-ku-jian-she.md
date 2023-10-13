@@ -9,7 +9,7 @@ date: 2023-09-25 23:17:51
 categories: 题解
 description: Kruskal重构树好题
 keywords: Kruskal重构树
-photos: https://pic.imgdb.cn/item/651263edc458853aefbb11d1.jpg
+photos: https://a154051-img-1321592229.cos.ap-beijing.myqcloud.com/img/23-9-26.jpg
 ---
 
 [P6310 「Wdsr-1」仓库建设 ](https://www.luogu.com.cn/problem/P6310)
