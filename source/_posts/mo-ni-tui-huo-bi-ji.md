@@ -1,7 +1,7 @@
 ---
 title: 【学习笔记】模拟退火算法 
 author: a154051
-avatar: https://cdn.jsdelivr.net/gh/154051/cdn@master/img/头像new.jpg
+avatar: https://a154051-img-1321592229.cos.ap-beijing.myqcloud.com/img/头像new.jpg
 categories: 笔记
 date: 2021-02-08 19:40:00
 mathjax: true
@@ -9,7 +9,7 @@ tags:
  - 模拟退火
 keywords: 模拟退火笔记
 description: 模拟退火笔记
-photos: https://cdn.jsdelivr.net/gh/154051/cdn@master/img/鬼灭1new.jpg
+photos: https://a154051-img-1321592229.cos.ap-beijing.myqcloud.com/img/鬼灭1new.jpg
 ---
 
 # 简介

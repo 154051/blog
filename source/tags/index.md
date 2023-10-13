@@ -2,7 +2,7 @@
 layout: tags
 title: tags
 date: 2018-12-12 22:14:16
-photos: https://cdn.jsdelivr.net/gh/154051/cdn@master/img/org1.jpg
+photos: https://a154051-img-1321592229.cos.ap-beijing.myqcloud.com/img/5-15.png
 tagss:
 comments: false
 ---

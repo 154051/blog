@@ -4,7 +4,7 @@ date: 2018-12-20 23:13:35
 keywords: Android客户端
 description: 
 comments: false
-photos: https://cdn.jsdelivr.net/gh/154051/cdn@master/img/banner/client.jpg
+photos: https://a154051-img-1321592229.cos.ap-beijing.myqcloud.com/img/banner/client.jpg
 ---
 直接下载 or 扫码下载：
 {% raw %}

@@ -50,7 +50,6 @@
         </h3>
       </div>
     </div>
-    <hr>
     <p><i class="iconfont icon-write"></i><%- theme.description%></p>
   </section>
 </div>
@@ -61,8 +60,8 @@
     var QRBox = $('#QRBox');
     var MainBox = $('#MainBox');
     var BTCQR = '/images/donate/BTCQR.png'; // 二维码路径
-    var AliPayQR  = '<%- (theme.cdn || '') + theme.donate.alipay %>';
-    var WeChanQR  = '<%- (theme.cdn || '') + theme.donate.wechatSQ %>';
+    var AliPayQR  = '<%- (theme.cdn ) + theme.donate.alipay %>';
+    var WeChanQR  = '<%- (theme.cdn ) + theme.donate.wechatSQ %>';
 
     function showQR(QR) {
       if (QR) {

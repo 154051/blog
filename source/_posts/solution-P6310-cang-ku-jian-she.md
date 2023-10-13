@@ -1,6 +1,6 @@
 ---
 author: a154051
-avatar: 'https://cdn.jsdelivr.net/gh/154051/cdn@master/img/头像new.jpg'
+avatar: 'https://a154051-img-1321592229.cos.ap-beijing.myqcloud.com/img/头像new.jpg'
 title: 【题解】P6310 [Wdsr-1]仓库建设
 tags:
   - Kruskal重构树

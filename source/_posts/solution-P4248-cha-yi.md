@@ -1,6 +1,6 @@
 ---
 author: a154051
-avatar: 'https://cdn.jsdelivr.net/gh/154051/cdn@master/img/头像new.jpg'
+avatar: 'https://a154051-img-1321592229.cos.ap-beijing.myqcloud.com/img/头像new.jpg'
 title: 【题解】P4248 [AHOI2013]差异
 tags:
   - 字符串
@@ -10,7 +10,7 @@ date: 2021-07-17 19:49:52
 categories: 题解
 description: 后缀自动机求最长公共后缀
 keywords: 后缀自动机
-photos: https://cdn.jsdelivr.net/gh/154051/cdn@master/img/7-17.jpg
+photos: https://a154051-img-1321592229.cos.ap-beijing.myqcloud.com/img/7-17.jpg
 ---
 
 ## 题意

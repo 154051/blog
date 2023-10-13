@@ -36,9 +36,11 @@ homePageSortType: -1
 homeArticleShown: 10
 # 背景图片 更好的修改
 bg:
-  - https://cdn.jsdelivr.net/gh/154051/cdn@master/img/星月夜new.jpg
-  - https://cdn.jsdelivr.net/gh/154051/cdn@master/img/cover2new.jpg
-  - https://cdn.jsdelivr.net/gh/154051/cdn@master/img/cover1new.jpg
+  - https://a154051-img-1321592229.cos.ap-beijing.myqcloud.com/img/星月夜new.jpg
+  - https://a154051-img-1321592229.cos.ap-beijing.myqcloud.com/img/cover2new.jpg
+  - https://a154051-img-1321592229.cos.ap-beijing.myqcloud.com/img/cover1new.jpg
+  - https://a154051-img-1321592229.cos.ap-beijing.myqcloud.com/img/bg3.jpg
+  - https://a154051-img-1321592229.cos.ap-beijing.myqcloud.com/img/bg5.jpg
 
 # 背景图片样式 空 原图效果 filter-dim 阴影 filter-grid 横条 filter-dot 点点
 bgclass: filter-dot

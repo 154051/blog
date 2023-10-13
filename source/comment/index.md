@@ -4,7 +4,7 @@ date: 2018-12-20 23:13:48
 keywords: 留言板
 description: 
 comments: true
-photos: https://cdn.jsdelivr.net/gh/154051/cdn@master/img/comment0.png
+photos: https://a154051-img-1321592229.cos.ap-beijing.myqcloud.com/img/comment0.png
 ---
 {% raw %}
 <div class="entry-content">

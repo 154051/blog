@@ -1,6 +1,6 @@
 ---
 author: a154051
-avatar: 'https://cdn.jsdelivr.net/gh/154051/cdn@master/img/头像new.jpg'
+avatar: 'https://a154051-img-1321592229.cos.ap-beijing.myqcloud.com/img/头像new.jpg'
 title: 【题解】P3761 [TJOI2017]城市
 tags:
   - 树
@@ -9,7 +9,7 @@ date: 2021-08-08 20:31:36
 categories: 题解
 description: 证明了O(n)做法
 keywords: P3761
-photos: https://cdn.jsdelivr.net/gh/154051/cdn@master/img/8-8_2.jpg
+photos: https://a154051-img-1321592229.cos.ap-beijing.myqcloud.com/img/8-8_2.jpg
 ---
 [P3761 [TJOI2017]城市](https://www.luogu.com.cn/problem/P3761)
 

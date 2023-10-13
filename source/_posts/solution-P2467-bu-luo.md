@@ -1,6 +1,6 @@
 ---
 author: a154051
-avatar: https://cdn.jsdelivr.net/gh/154051/cdn@master/img/头像new.jpg
+avatar: https://a154051-img-1321592229.cos.ap-beijing.myqcloud.com/img/头像new.jpg
 title: 【题解】P2467 [SDOI2010]地精部落
 mathjax: true
 date: 2021-03-03 21:40:32
@@ -8,7 +8,7 @@ tags:
  - DP
 categories: 题解
 description: 前缀和优化DP
-photos: https://cdn.jsdelivr.net/gh/154051/cdn@master/img/03-03.jpg
+photos: https://a154051-img-1321592229.cos.ap-beijing.myqcloud.com/img/03-03.jpg
 ---
 
 [P2467 [SDOI2010]地精部落](https://www.luogu.com.cn/problem/P2467)

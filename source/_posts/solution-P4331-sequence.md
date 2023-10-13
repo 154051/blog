@@ -1,6 +1,6 @@
 ---
 author: a154051
-avatar: 'https://cdn.jsdelivr.net/gh/154051/cdn@master/img/头像new.jpg'
+avatar: 'https://a154051-img-1321592229.cos.ap-beijing.myqcloud.com/img/头像new.jpg'
 title: 【题解】P4331 [BalticOI 2004]Sequence
 tags:
   - 贪心
@@ -9,7 +9,7 @@ date: 2021-09-25 16:35:02
 categories: 题解
 description: 贪心加数据结构
 keywords: 贪心
-photos: https://cdn.jsdelivr.net/gh/154051/cdn@master/img/9-25-2.jpg
+photos: https://a154051-img-1321592229.cos.ap-beijing.myqcloud.com/img/9-25-2.jpg
 ---
 [P4331 [BalticOI 2004]Sequence 数字序列](https://www.luogu.com.cn/problem/P4331)
 

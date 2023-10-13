@@ -1,6 +1,6 @@
 ---
 author: 154051
-avatar: https://cdn.jsdelivr.net/gh/154051/cdn@master/img/头像new.jpg
+avatar: https://a154051-img-1321592229.cos.ap-beijing.myqcloud.com/img/头像new.jpg
 title: 4.26模拟赛总结
 mathjax: true
 date: 2021-04-26 13:54:44
@@ -9,7 +9,7 @@ tags:
 categories: 总结
 description: 4.26模拟赛总结
 keywords: 模拟赛总结
-photos: https://cdn.jsdelivr.net/gh/154051/cdn@master/img/4-26new.jpg
+photos: https://a154051-img-1321592229.cos.ap-beijing.myqcloud.com/img/4-26new.jpg
 ---
 
 ## T1

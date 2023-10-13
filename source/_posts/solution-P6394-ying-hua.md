@@ -1,7 +1,7 @@
 ---
 title: 【题解】P6394樱花，还有你
 author: a154051
-avatar: https://cdn.jsdelivr.net/gh/154051/cdn@master/img/头像new.jpg
+avatar: https://a154051-img-1321592229.cos.ap-beijing.myqcloud.com/img/头像new.jpg
 categories: 题解
 date: 2021-02-27 11:14:00
 mathjax: true
@@ -9,7 +9,7 @@ tags:
  - DP
 keywords: 题解P6394樱花，还有你
 description: 基础DP优化好题
-photos: https://cdn.jsdelivr.net/gh/154051/cdn@master/img/SakuraAndYou.jpg
+photos: https://a154051-img-1321592229.cos.ap-beijing.myqcloud.com/img/SakuraAndYou.jpg
 ---
 [P6394 樱花，还有你](https://www.luogu.com.cn/problem/P6394)
 

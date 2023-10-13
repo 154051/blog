@@ -4,7 +4,7 @@ comments: true
 date: 2019-01-04 22:53:25
 keywords: 关于
 description:
-photos: https://cdn.jsdelivr.net/gh/154051/cdn@master/img/1.jpg
+photos: https://a154051-img-1321592229.cos.ap-beijing.myqcloud.com/img/1.jpg
 ---
 退役OI人，随便写点东西。
 

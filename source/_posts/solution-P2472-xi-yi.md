@@ -1,6 +1,6 @@
 ---
 author: a154051
-avatar: 'https://cdn.jsdelivr.net/gh/154051/cdn@master/img/头像new.jpg'
+avatar: 'https://a154051-img-1321592229.cos.ap-beijing.myqcloud.com/img/头像new.jpg'
 title: 【题解】P2472 [SCOI2007]蜥蜴
 mathjax: true
 date: 2021-03-05 16:36:55
@@ -8,7 +8,7 @@ tags:
  - 网络流
 categories: 题解
 description: 网络瘤，毒瘤的瘤。
-photos: https://cdn.jsdelivr.net/gh/154051/cdn@master/img/P2472.jpg
+photos: https://a154051-img-1321592229.cos.ap-beijing.myqcloud.com/img/P2472.jpg
 ---
 
 [P2472 [SCOI2007]蜥蜴](https://www.luogu.com.cn/problem/P2472)

@@ -1,7 +1,7 @@
 ---
 title: test
 author: 154051
-avatar: https://cdn.jsdelivr.net/gh/154051/cdn@master/img/头像new.jpg
+avatar: https://a154051-img-1321592229.cos.ap-beijing.myqcloud.com/img/头像new.jpg
 categories: 测试
 date: 2020-12-20 16:40:00
 mathjax: true
@@ -10,7 +10,7 @@ tags:
  - latex
 keywords: test
 description: 总之就是测试各种东西
-photos: https://cdn.jsdelivr.net/gh/154051/cdn@master/img/鬼灭1new.jpg
+photos: https://a154051-img-1321592229.cos.ap-beijing.myqcloud.com/img/鬼灭1new.jpg
 top: true
 ---
 

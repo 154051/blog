@@ -1,6 +1,6 @@
 ---
 author: 154051
-avatar: https://cdn.jsdelivr.net/gh/154051/cdn@master/img/头像new.jpg
+avatar: https://a154051-img-1321592229.cos.ap-beijing.myqcloud.com/img/头像new.jpg
 title: 焦作一中集训记
 tags:
   - 集训
@@ -9,7 +9,7 @@ date: 2021-05-15 16:49:31
 categories: 游记
 description: 焦作一中集训记
 keywords: 焦作一中集训记
-photos: https://cdn.jsdelivr.net/gh/154051/cdn@master/img/5-15.png
+photos: https://a154051-img-1321592229.cos.ap-beijing.myqcloud.com/img/5-15.png
 ---
 
 ## Day -1

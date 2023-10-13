@@ -1,6 +1,6 @@
 ---
 author: 154051
-avatar: https://cdn.jsdelivr.net/gh/154051/cdn@master/img/头像new.jpg
+avatar: https://a154051-img-1321592229.cos.ap-beijing.myqcloud.com/img/头像new.jpg
 title: 5.2模拟赛总结
 tags:
   - 模拟赛
@@ -9,7 +9,7 @@ date: 2021-05-02 18:33:00
 categories: 总结
 description: 5.2模拟赛总结
 keywords: 模拟赛总结
-photos: https://cdn.jsdelivr.net/gh/154051/cdn@master/img/5-2.jpg
+photos: https://a154051-img-1321592229.cos.ap-beijing.myqcloud.com/img/5-2.jpg
 ---
 
 ## [T1](https://www.luogu.com.cn/problem/P6225)

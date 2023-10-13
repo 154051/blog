@@ -1,6 +1,6 @@
 ---
 author: a154051
-avatar: 'https://cdn.jsdelivr.net/gh/154051/cdn@master/img/头像new.jpg'
+avatar: 'https://a154051-img-1321592229.cos.ap-beijing.myqcloud.com/img/头像new.jpg'
 title: 【题解】P3291 [SCOI2016]妖怪
 tags:
   - 模拟退火
@@ -11,7 +11,7 @@ description: 玄学又好用的模拟退火
 keywords: 
   - P3291
   - SCOI2016
-photos: https://cdn.jsdelivr.net/gh/154051/cdn@master/img/9-1.jpg
+photos: https://a154051-img-1321592229.cos.ap-beijing.myqcloud.com/img/9-1.jpg
 ---
 
 蒟蒻不会凸包，于是用**模拟退火**过了这道题。

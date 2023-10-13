@@ -2,7 +2,7 @@
 title: 游戏
 keywords: 游戏
 date: 2021-03-09 17:00:00
-photos: https://cdn.jsdelivr.net/gh/154051/cdn@master/img/no-game-no-life-zero.jpg
+photos: https://a154051-img-1321592229.cos.ap-beijing.myqcloud.com/img/no-game-no-life-zero.jpg
 comments: false
 ---
 
