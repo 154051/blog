@@ -1,5 +1,5 @@
 ---
-author: 154051
+author: a154051
 avatar: https://a154051-img-1321592229.cos.ap-beijing.myqcloud.com/img/头像new.jpg
 title: {{ title }}
 date: {{ date }}
