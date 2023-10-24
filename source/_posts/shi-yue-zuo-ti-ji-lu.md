@@ -5,7 +5,7 @@ title: 十月做题记录
 tags:
   - 做题记录
 mathjax: true
-date: 2023-10-24 14:10:00
+date: 2023-10-24 16:10:00
 categories: 题解
 description: 记录摆烂的十月
 keywords: 十月做题记录
