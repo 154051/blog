@@ -47,8 +47,8 @@
   mashiro_option.site_name = "a154051";
   mashiro_option.author_name = "";
   mashiro_option.site_url = "https://a154051.gitee.io/";
-  mashiro_option.v_appId = "rNY2a0do2F5IkY1hjVtYCYEw-MdYXbMMI";
-  mashiro_option.v_appKey = "AK8kkYPveMhsDMtYFXRUSHgo";
+  mashiro_option.v_appId = "rs4VVxGj5K6z2TqUYwaD7NNF-gzGzoHsz";
+  mashiro_option.v_appKey = "gIRkS6sOIVSMcgoLHU5Ta1Wo";
   mashiro_option.mathjax = "1";
   mashiro_option.qq_api_url = "https://api.mashiro.top/qqinfo/"; 
   mashiro_option.qq_avatar_api_url = "https://api.mashiro.top/qqinfo/";
@@ -286,8 +286,8 @@
               <li>
                 <a href="/tags/">
                   <span class="faa-parent animated-hover">
-                    <i class="fa  fa-list-ul faa-vertical" aria-hidden="true"></i>
-                    tags
+                    <i class="fa  fa-tags faa-vertical" aria-hidden="true"></i>
+                    标签
                   </span>
                 </a>
                 
@@ -373,10 +373,7 @@
         
         <span class="bull">
         <i class="fa fa-eye" aria-hidden="true"></i></span>
-      
-        <span id="busuanzi_container_page_pv">
-          本文总阅读量<span id="busuanzi_value_page_pv"></span>次
-          </span>
+          <span id="2021/03/03/solution-P2467-bu-luo/" class="leancloud_visitors" data-flag-title="【题解】P2467 [SDOI2010]地精部落"></span>次阅读
       
     </p>
       
@@ -513,8 +510,8 @@ int main()
       var valine = new Valine();
       valine.init({
         el: '#vcomments',
-        appId: "rNY2a0do2F5IkY1hjVtYCYEw-MdYXbMMI",
-        appKey: "AK8kkYPveMhsDMtYFXRUSHgo",
+        appId: "rs4VVxGj5K6z2TqUYwaD7NNF-gzGzoHsz",
+        appKey: "gIRkS6sOIVSMcgoLHU5Ta1Wo",
         master: 'eeb5bf9161f41a9bbee1b6af0daba9b0',
         tagMeta: ["博主","小伙伴","访客"],
         path: window.location.pathname,
@@ -552,6 +549,94 @@ twikoo.init({
     </main><!-- #main -->
   </div><!-- #primary -->
 </div>
+
+<!-- 同时兼容http与https -->
+<script src="//unpkg.com/leancloud-storage@4.12.2/dist/av-min.js"></script>
+<script>
+    // 第一个参数是appid，第二个参数是appkey，此处的只是示例
+    AV.init({
+      appId: "rs4VVxGj5K6z2TqUYwaD7NNF-gzGzoHsz",
+      appKey: "gIRkS6sOIVSMcgoLHU5Ta1Wo",
+      serverURL: "https://leancloud.api.whuzfb.cn"
+    });
+    // 自己创建的Class的名字
+    var name='Counter';
+    function createRecord(Counter){
+      // 设置 ACL
+      var acl = new AV.ACL();
+      acl.setPublicReadAccess(true);
+      acl.setPublicWriteAccess(true);
+      // 获得span的所有元素
+      var elements=document.getElementsByClassName('leancloud_visitors');
+      // 一次创建多条记录
+      var allcounter=[];
+      for (var i = 0; i < elements.length ; i++) {
+        // 若某span的内容不包括 '-' ，则不必创建记录
+        if(elements[i].textContent.indexOf('-') == -1){
+          continue;
+        }
+        var title = elements[i].getAttribute('data-flag-title');
+        var url = elements[i].id;
+        var newcounter = new Counter();
+        newcounter.setACL(acl);
+        newcounter.set("title", title);
+        newcounter.set("url", url);
+        newcounter.set("time", 0);
+        allcounter.push(newcounter);
+        // 顺便更新显示span为默认值0
+        elements[i].textContent=0;
+      }
+      AV.Object.saveAll(allcounter).then(function (todo) {
+        // 成功保存记录之后
+        console.log('创建记录成功！');
+      }, function (error) {
+        // 异常错误 
+        console.error('创建记录失败: ' + error.message);
+      });
+    }
+    function showCount(Counter){
+      // 是否需要创建新纪录的标志（添加一篇新文章）
+      var flag=false;
+      var query = new AV.Query(name);
+      query.greaterThanOrEqualTo('time', 0);
+      query.find().then(function (results) {
+        // 当获取到的记录为0时置默认值
+        if(results.length==0){
+          $('.leancloud_visitors').text('-');
+          flag=true;
+          console.log('返回查询记录为空');
+          // 如果获取到空记录就创建新记录
+          createRecord(Counter);
+          return;
+        }
+        // 将获取到的数据设置为text
+        for (var i = 0; i < results.length; i++) {
+          var item = results[i];
+          var url = item.get('url');
+          var time = item.get('time');
+          var element = document.getElementById(url);
+          element.textContent = time;
+        }
+        // 当某个span含有默认值时说明需要创建记录
+        if($('.leancloud_visitors').text().indexOf("-") != -1){
+          flag=true;
+        }
+        // 当获取的记录数与span个数不吻合时
+        if(results.length != $('.leancloud_visitors').length){
+          flag=true;
+        }
+        if(flag){
+          createRecord(Counter);
+        }
+      }, function (error) {
+        console.log('query error:'+error.message);
+      });
+    }
+    $(function() {
+      var Counter = AV.Object.extend(name);
+      showCount(Counter);
+    });
+</script>
 
 
   <script type="text/javascript" src="https://cdn.bootcss.com/mathjax/2.7.6/latest.js?config=TeX-MML-AM_CHTML"></script>
@@ -760,8 +845,8 @@ $(document).ready(function() {
       <li>
         <a href="/tags/">
           <span class="faa-parent animated-hover">
-            <i class="fa  fa-list-ul faa-vertical" aria-hidden="true"></i>
-            tags
+            <i class="fa  fa-tags faa-vertical" aria-hidden="true"></i>
+            标签
           </span>
         </a>
         

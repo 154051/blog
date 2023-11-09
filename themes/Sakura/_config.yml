@@ -20,7 +20,7 @@ menus:
     题解: {path: /categories/题解/, fa: fa-code },
     笔记: {path: /categories/笔记/, fa: fa-book },
   } }
-  tags: { path: /tags/, fa: fa-list-ul faa-vertical }
+  标签: { path: /tags/, fa: fa-tags faa-vertical }
   留言板: { path: /comment/, fa: fa-pencil-square-o faa-tada }
   友人帐: { path: /links/, fa: fa-link faa-shake }
   # 番剧: {path: /bangumi/, fa: fa-film faa-vertical }
@@ -100,8 +100,8 @@ aplayer:
 
 # Valine
 valine: false
-v_appId: rNY2a0do2F5IkY1hjVtYCYEw-MdYXbMMI
-v_appKey: AK8kkYPveMhsDMtYFXRUSHgo
+v_appId: rs4VVxGj5K6z2TqUYwaD7NNF-gzGzoHsz
+v_appKey: gIRkS6sOIVSMcgoLHU5Ta1Wo
 
 twikoo:
   enable: true
