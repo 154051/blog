@@ -373,7 +373,8 @@
         
         <span class="bull">
         <i class="fa fa-eye" aria-hidden="true"></i></span>
-          <span id="2021/07/17/solution-P4248-cha-yi/" class="leancloud_visitors" data-flag-title="【题解】P4248 [AHOI2013]差异"></span>次阅读
+          <span class="waline-pageview-count" data-path="/2021/07/17/solution-P4248-cha-yi/" ></span>次阅读
+          <!-- <span id="/2021/07/17/solution-P4248-cha-yi/" class="leancloud_visitors" data-flag-title="【题解】P4248 [AHOI2013]差异"></span>次阅读 -->
       
     </p>
       
@@ -586,93 +587,20 @@ twikoo.init({
   </div><!-- #primary -->
 </div>
 
-<!-- 同时兼容http与https -->
-<script src="//unpkg.com/leancloud-storage@4.12.2/dist/av-min.js"></script>
-<script>
-    // 第一个参数是appid，第二个参数是appkey，此处的只是示例
-    AV.init({
-      appId: "rs4VVxGj5K6z2TqUYwaD7NNF-gzGzoHsz",
-      appKey: "gIRkS6sOIVSMcgoLHU5Ta1Wo",
-      serverURL: "https://leancloud.api.whuzfb.cn"
+<script type="module">
+    import { pageviewCount } from 'https://unpkg.com/@waline/client/dist/pageview.mjs';
+  
+    pageviewCount({
+      serverURL: 'https://waline-counter-gh5lpsy8i-2279162137-qqcom.vercel.app/',
+      path: window.location.pathname,
+  
+      // 可选的，用于自定选择器，默认为 `'.waline-pageview-count'`
+      // selector: 'waline-pageview-count',
+  
+      // 可选的，是否在获取时增加访问量，默认为 `true`
+      // update: true,
     });
-    // 自己创建的Class的名字
-    var name='Counter';
-    function createRecord(Counter){
-      // 设置 ACL
-      var acl = new AV.ACL();
-      acl.setPublicReadAccess(true);
-      acl.setPublicWriteAccess(true);
-      // 获得span的所有元素
-      var elements=document.getElementsByClassName('leancloud_visitors');
-      // 一次创建多条记录
-      var allcounter=[];
-      for (var i = 0; i < elements.length ; i++) {
-        // 若某span的内容不包括 '-' ，则不必创建记录
-        if(elements[i].textContent.indexOf('-') == -1){
-          continue;
-        }
-        var title = elements[i].getAttribute('data-flag-title');
-        var url = elements[i].id;
-        var newcounter = new Counter();
-        newcounter.setACL(acl);
-        newcounter.set("title", title);
-        newcounter.set("url", url);
-        newcounter.set("time", 0);
-        allcounter.push(newcounter);
-        // 顺便更新显示span为默认值0
-        elements[i].textContent=0;
-      }
-      AV.Object.saveAll(allcounter).then(function (todo) {
-        // 成功保存记录之后
-        console.log('创建记录成功！');
-      }, function (error) {
-        // 异常错误 
-        console.error('创建记录失败: ' + error.message);
-      });
-    }
-    function showCount(Counter){
-      // 是否需要创建新纪录的标志（添加一篇新文章）
-      var flag=false;
-      var query = new AV.Query(name);
-      query.greaterThanOrEqualTo('time', 0);
-      query.find().then(function (results) {
-        // 当获取到的记录为0时置默认值
-        if(results.length==0){
-          $('.leancloud_visitors').text('-');
-          flag=true;
-          console.log('返回查询记录为空');
-          // 如果获取到空记录就创建新记录
-          createRecord(Counter);
-          return;
-        }
-        // 将获取到的数据设置为text
-        for (var i = 0; i < results.length; i++) {
-          var item = results[i];
-          var url = item.get('url');
-          var time = item.get('time');
-          var element = document.getElementById(url);
-          element.textContent = time;
-        }
-        // 当某个span含有默认值时说明需要创建记录
-        if($('.leancloud_visitors').text().indexOf("-") != -1){
-          flag=true;
-        }
-        // 当获取的记录数与span个数不吻合时
-        if(results.length != $('.leancloud_visitors').length){
-          flag=true;
-        }
-        if(flag){
-          createRecord(Counter);
-        }
-      }, function (error) {
-        console.log('query error:'+error.message);
-      });
-    }
-    $(function() {
-      var Counter = AV.Object.extend(name);
-      showCount(Counter);
-    });
-</script>
+  </script>
 
 
   <script type="text/javascript" src="https://cdn.bootcss.com/mathjax/2.7.6/latest.js?config=TeX-MML-AM_CHTML"></script>
@@ -760,7 +688,7 @@ twikoo.init({
 <script type="text/javascript" src="/js/jquery.fancybox.min.js"></script>
 <script type="text/javascript" src="/js/zoom.min.js"></script>
 <script type="text/javascript" src="/js/sakura-app.js"></script>
-<script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+<script src="//cdn.jsdelivr.net/npm/leancloud-storage/dist/av-min.js"></script>
 <!-- <script src="https://cdn.jsdelivr.net/gh/HCLonely/Valine@latest/dist/Valine.min.js"></script> -->
 <script src="/js/botui.js"></script>
 <!-- 不蒜子 网页计数器 -->
