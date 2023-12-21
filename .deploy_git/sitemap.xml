@@ -51,14 +51,14 @@
   </url>
   
   <url>
-    <loc>https://a154051.gitee.io/client/index.html</loc>
+    <loc>https://a154051.gitee.io/comment/index.html</loc>
     
     <lastmod>2023-10-13</lastmod>
     
   </url>
   
   <url>
-    <loc>https://a154051.gitee.io/comment/index.html</loc>
+    <loc>https://a154051.gitee.io/client/index.html</loc>
     
     <lastmod>2023-10-13</lastmod>
     
@@ -72,14 +72,14 @@
   </url>
   
   <url>
-    <loc>https://a154051.gitee.io/links/index.html</loc>
+    <loc>https://a154051.gitee.io/music/index.html</loc>
     
     <lastmod>2023-10-13</lastmod>
     
   </url>
   
   <url>
-    <loc>https://a154051.gitee.io/music/index.html</loc>
+    <loc>https://a154051.gitee.io/links/index.html</loc>
     
     <lastmod>2023-10-13</lastmod>
     
@@ -200,7 +200,7 @@
   </url>
   
   <url>
-    <loc>https://a154051.gitee.io/tags/DP/</loc>
+    <loc>https://a154051.gitee.io/tags/%E5%81%9A%E9%A2%98%E8%AE%B0%E5%BD%95/</loc>
     <lastmod>2023-12-21</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -221,14 +221,14 @@
   </url>
   
   <url>
-    <loc>https://a154051.gitee.io/tags/%E6%A0%91/</loc>
+    <loc>https://a154051.gitee.io/tags/DP/</loc>
     <lastmod>2023-12-21</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://a154051.gitee.io/tags/%E8%B4%AA%E5%BF%83/</loc>
+    <loc>https://a154051.gitee.io/tags/%E6%A0%91/</loc>
     <lastmod>2023-12-21</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -249,14 +249,14 @@
   </url>
   
   <url>
-    <loc>https://a154051.gitee.io/tags/Kruskal%E9%87%8D%E6%9E%84%E6%A0%91/</loc>
+    <loc>https://a154051.gitee.io/tags/%E8%B4%AA%E5%BF%83/</loc>
     <lastmod>2023-12-21</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://a154051.gitee.io/tags/%E5%81%9A%E9%A2%98%E8%AE%B0%E5%BD%95/</loc>
+    <loc>https://a154051.gitee.io/tags/Kruskal%E9%87%8D%E6%9E%84%E6%A0%91/</loc>
     <lastmod>2023-12-21</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
