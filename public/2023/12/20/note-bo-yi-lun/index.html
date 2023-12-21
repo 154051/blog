@@ -678,11 +678,11 @@ int main()
     </div>
     <div class='spoiler-content'>
         <p>将这 $n$ 堆糖果按数量从多到少依次排序，每堆糖果排成一排，设左上角为 $(1,1)$，如图，</p>
-<p><img src="https://a154051-img-1321592229.cos.ap-beijing.myqcloud.com/img/23-12-20(1" alt="">.png)</p>
+<p><img src="https://a154051-img-1321592229.cos.ap-beijing.myqcloud.com/img/23-12-20-1.png" alt=""></p>
 <p>如果将当前最大的那堆糖果全部吃完（操作一），就会变成 $(2,1)$，</p>
-<p><img src="https://a154051-img-1321592229.cos.ap-beijing.myqcloud.com/img/23-12-20(2" alt="">.png)</p>
+<p><img src="https://a154051-img-1321592229.cos.ap-beijing.myqcloud.com/img/23-12-20-2.png" alt=""></p>
 <p>如果将每堆糖果吃掉一个（操作二），就会变成 $(1,2)$，</p>
-<p><img src="https://a154051-img-1321592229.cos.ap-beijing.myqcloud.com/img/23-12-20(3" alt="">.png)</p>
+<p><img src="https://a154051-img-1321592229.cos.ap-beijing.myqcloud.com/img/23-12-20-3.png" alt=""></p>
 <p>于是发现，设当前在 $(i,j)$，则执行一次操作一会变成 $(i+1,j)$，相当于向右走一步；执行一次操作二会变成 $(i,j+1)$，相当于向下走一步。</p>
 <p>显然如果一个点的右边和下边都没有点，那该点为必败点。一个点为必胜点当且仅当它的右边和下边至少有一个必败点，一个点为必败点当且仅当它的右边和下边都为必胜点。</p>
 <p>则有结论：$(i,j)$ 和 $(i+1,j+1)$ 的胜败状态相同。</p>
