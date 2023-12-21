@@ -30,8 +30,8 @@
         </span>
         <% } %>
         <span class="bull">
-        <i class="fa fa-eye" aria-hidden="true"></i></span>
-          <span class="waline-pageview-count" data-path="/<%= page.path %>" ></span>次阅读
+        <!-- <i class="fa fa-eye" aria-hidden="true"></i></span>
+          <span class="waline-pageview-count" data-path="/<%= page.path %>" ></span>次阅读 -->
           <!-- <span id="/<%= page.path %>" class="leancloud_visitors" data-flag-title="<%= page.title %>"></span>次阅读 -->
       <% if (post.top){ %>
         <i class="fa fa-thumb-tack"></i>
@@ -157,9 +157,9 @@
 <%- partial('_partial/leancloud-visitors') %>
 
 <% if (post.mathjax) { %>
-  <script type="text/javascript" src="https://cdn.bootcss.com/mathjax/2.7.6/latest.js?config=TeX-MML-AM_CHTML"></script>
+  <!-- <script type="text/javascript" src="https://cdn.bootcss.com/mathjax/2.7.6/latest.js?config=TeX-MML-AM_CHTML"></script> -->
   <!-- <script type="text/javascript" src="https://mathjax.rstudio.com/2.7.2/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script> -->
-  <!-- <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/mathjax@2.7.5/MathJax.js?config=TeX-MML-AM_CHTML"></script> -->
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/mathjax@2.7.5/MathJax.js?config=TeX-MML-AM_CHTML"></script>
   <script type="text/x-mathjax-config">
     MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
   </script>

@@ -10,7 +10,7 @@ photos: https://a154051-img-1321592229.cos.ap-beijing.myqcloud.com/img/1.jpg
 
 QQ：`2279162137`
 
-微信：`m2279162137` （几百年不看一回）
+微信：`m2279162137` 
 
 Hexo主题Sakura修改自WordPress主题[Sakura](https://github.com/mashirozx/Sakura/)，感谢原作者[Mashiro](https://2heng.xin/)
 

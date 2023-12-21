@@ -6,7 +6,7 @@
   <link href="https://a154051.gitee.io/atom.xml" rel="self"/>
   
   <link href="https://a154051.gitee.io/"/>
-  <updated>2023-12-06T10:35:04.992Z</updated>
+  <updated>2023-12-21T16:05:39.122Z</updated>
   <id>https://a154051.gitee.io/</id>
   
   <author>
@@ -17,11 +17,30 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>P3235 [HNOI2014] 江南乐</title>
+    <title>【笔记】博弈论</title>
+    <link href="https://a154051.gitee.io/2023/12/20/note-bo-yi-lun/"/>
+    <id>https://a154051.gitee.io/2023/12/20/note-bo-yi-lun/</id>
+    <published>2023-12-20T14:30:00.000Z</published>
+    <updated>2023-12-21T16:05:39.122Z</updated>
+    
+    
+    <summary type="html">蒟蒻的博弈论学习笔记</summary>
+    
+    
+    
+    <category term="笔记" scheme="https://a154051.gitee.io/categories/%E7%AC%94%E8%AE%B0/"/>
+    
+    
+    <category term="博弈论" scheme="https://a154051.gitee.io/tags/%E5%8D%9A%E5%BC%88%E8%AE%BA/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>【题解】P3235 [HNOI2014] 江南乐</title>
     <link href="https://a154051.gitee.io/2023/12/06/sol-P3235-jiang-nan-le/"/>
     <id>https://a154051.gitee.io/2023/12/06/sol-P3235-jiang-nan-le/</id>
     <published>2023-12-06T09:30:38.000Z</published>
-    <updated>2023-12-06T10:35:04.992Z</updated>
+    <updated>2023-12-11T09:27:54.402Z</updated>
     
     
     <summary type="html">博弈论加整除分块</summary>
@@ -211,11 +230,11 @@
   </entry>
   
   <entry>
-    <title>【学习笔记】模拟退火算法</title>
+    <title>【笔记】模拟退火算法</title>
     <link href="https://a154051.gitee.io/2021/02/08/mo-ni-tui-huo-bi-ji/"/>
     <id>https://a154051.gitee.io/2021/02/08/mo-ni-tui-huo-bi-ji/</id>
     <published>2021-02-08T11:40:00.000Z</published>
-    <updated>2023-10-13T10:42:06.494Z</updated>
+    <updated>2023-12-11T09:33:45.655Z</updated>
     
     
     <summary type="html">模拟退火笔记</summary>

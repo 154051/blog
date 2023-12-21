@@ -1,7 +1,7 @@
 ---
 author: a154051
 avatar: 'https://a154051-img-1321592229.cos.ap-beijing.myqcloud.com/img/头像new.jpg'
-title: P3235 [HNOI2014] 江南乐 
+title: 【题解】P3235 [HNOI2014] 江南乐 
 tags:
   - 博弈论
   - 整除分块

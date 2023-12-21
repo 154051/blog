@@ -1,5 +1,5 @@
 ---
-title: 【学习笔记】模拟退火算法 
+title: 【笔记】模拟退火算法 
 author: a154051
 avatar: https://a154051-img-1321592229.cos.ap-beijing.myqcloud.com/img/头像new.jpg
 categories: 笔记
